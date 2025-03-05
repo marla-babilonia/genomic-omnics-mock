@@ -15,5 +15,10 @@ public class Main {
         //print both matrices
         MatrixHandler.printMatrix(ogMatrix, "Original Matrix: ");
         MatrixHandler.printMatrix(comparisonMatrix, "Comparison Matrix: ");
+
+        //get the changes
+        MatrixComparison comparison = new MatrixComparison();
+        comparison.compareMatrices(ogMatrix, comparisonMatrix);
+        comparison.printComparisonResults();
     }
 }

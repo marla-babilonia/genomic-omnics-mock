@@ -6,7 +6,7 @@ public class MatrixHandler {
     
     //change these to the path of the tester files - just here to make my life easier
     private static final String TesterFileName1 = "/home/fslabs/ds_051_9/Desktop/investigacion/test1/ogMatrix-tester.txt";
-    private static final String TesterFileName2 = "/home/fslabs/ds_051_9/Desktop/investigacion/test1/ogMatrixTester-1-simpleDeletion.txt";
+    private static final String TesterFileName2 = "/home/fslabs/ds_051_9/Desktop/investigacion/test1/ogMatrixTester-4-geneAddition.txt";
 
     /**
      * GetMatrixFromUser method
